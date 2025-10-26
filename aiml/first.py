@@ -3,12 +3,12 @@ import json
 from datetime import datetime
 import time
 
-API_KEY = "AIzaSyAJjx7NXszJSZ4H2V \\ m6KmmwMaEPXZmdJ4w"
-API_URL = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={"AIzaSyAJjx7NXszJSZ4H2V \\ m6KmmwMaEPXZmdJ4w"}"
+API_KEY = "shhh"
+API_URL = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={"shh"}"
 INPUT_FILE = "text.txt"
 OUTPUT_FILE = "llm_responses.json"
 
-# i added the \\ in api key so it isnt public, please dont steal it 🥀
+# removed the api key since it kept getting flagged
 
 
 def read_prompts(file_path):
@@ -64,4 +64,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
